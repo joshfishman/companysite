@@ -1,0 +1,181 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>WE: Creative Agency</title>
+  <meta name="description" content="Los Angeles Web &amp; Application Development. Digital Strategy, Design &amp; Architecture. ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="animate.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <style>
+   ul {
+   	list-style-type: none;
+   	padding: 0; 
+   }
+   ul li{
+   	line-height: 1.2rem;
+   }
+   body {
+   	color: white;
+   	font-family: 'Space Mono', monospace;
+   	letter-spacing: 1px;
+
+
+   }
+   a, a:hover, a:visited {
+   	color: white;
+   	text-decoration: none;
+   }
+ 	center{
+ 		position: relative;
+ 		z-index: 1000
+ 	}
+   @keyframes move-twink-back {
+       from {background-position:0 0;}
+       to {background-position:-10000px 5000px;}
+   }
+   @-webkit-keyframes move-twink-back {
+       from {background-position:0 0;}
+       to {background-position:-10000px 5000px;}
+   }
+   @-moz-keyframes move-twink-back {
+       from {background-position:0 0;}
+       to {background-position:-10000px 5000px;}
+   }
+   @-ms-keyframes move-twink-back {
+       from {background-position:0 0;}
+       to {background-position:-10000px 5000px;}
+   }
+
+   @keyframes move-clouds-back {
+       from {background-position:0 0;}
+       to {background-position:10000px 0;}
+   }
+   @-webkit-keyframes move-clouds-back {
+       from {background-position:0 0;}
+       to {background-position:10000px 0;}
+   }
+   @-moz-keyframes move-clouds-back {
+       from {background-position:0 0;}
+       to {background-position:10000px 0;}
+   }
+   @-ms-keyframes move-clouds-back {
+       from {background-position: 0;}
+       to {background-position:10000px 0;}
+   }
+
+   .stars, .twinkling, .clouds {
+     position:absolute;
+     top:0;
+     left:0;
+     right:0;
+     bottom:0;
+     width:100%;
+     height:100%;
+     display:block;
+     z-index: 1;
+   }
+
+   .stars {
+     background:#000 url(images/stars.png) repeat top center;
+     z-index:0;
+   }
+
+   .twinkling{
+     background:transparent url(images/twinkling.png) repeat top center;
+     z-index:1;
+
+     -moz-animation:move-twink-back 200s linear infinite;
+     -ms-animation:move-twink-back 200s linear infinite;
+     -o-animation:move-twink-back 200s linear infinite;
+     -webkit-animation:move-twink-back 200s linear infinite;
+     animation:move-twink-back 200s linear infinite;
+   }
+
+   .clouds{
+       background:transparent url(images/clouds2.png) repeat top center;
+       z-index:3;
+
+     -moz-animation:move-clouds-back 200s linear infinite;
+     -ms-animation:move-clouds-back 200s linear infinite;
+     -o-animation:move-clouds-back 200s linear infinite;
+     -webkit-animation:move-clouds-back 200s linear infinite;
+     animation:move-clouds-back 200s linear infinite;
+   }
+   h4{
+   	letter-spacing: 1px;
+   	text-decoration: underline;
+   	font-weight: normal;
+   }
+   blink{
+   	font-family: sans-serif;
+   	font-size: 1.5rem;
+   }
+   h3{
+   	margin-top: 2rem;
+   }
+   .callout {
+   	background-color: rgba(255,255,255,1);
+   	color: black;
+   	margin-top:3rem;
+   	padding: 0.5rem 1rem;
+   }
+   .callout:hover {
+   				color: black;
+   }
+   .callout:visited {
+   	color: black;
+   }
+
+
+
+  </style>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <?php
+   
+  // grab recaptcha library
+  require_once "recaptchalib.php";
+   
+  ?>
+</head>
+
+<body>
+<div class="stars"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+<center>
+<br>
+<br>
+<br>
+  <h1>WE: Creative Agency</h1>
+  <h2>DESIGN • DEVELOP • STRATEGY</h2>
+<h4>WORK WORK WORK WORK WORK</h4>
+<ul>
+	<li><a href="http://boutique-homes.com" target="_blank">Boutique Homes</a></li>
+  <li><a href="http://califchickencafe.com" target="_blank">California Chicken Cafe</a></li>
+	<li><a href="http://scoreascore.com" target="_blank">Score A Score</a></li>
+  <li><a href="http://chillibeans.com" target="_blank">Chilli Beans</a></li>
+	<li><a href="http://livanosrestaurantgroup.com" target="_blank">Livanos Restaurant Group</a></li>
+	<li><a href="http://shopalthouse.com" target="_blank">AltHouse</a></li>
+</ul>
+  <h3><a class="callout animate slideUp" href="mailto:josh@wecreativeagency.com"><blink>&#9787;</blink> Let's Build Something Together <blink>&#9787;</blink></a></h3>
+<!--   <form id="contact_form" action="recaptchalib.php" method="post">
+       <input type="email" placeholder="Email" size="40"><br><br>
+       <textarea name="comment" rows="8" cols="39" placeholder="Your Message"></textarea><br><br>
+       <div class="g-recaptcha" data-sitekey="6LcCmSQTAAAAAEaMw5Zu2eSePgoewXcUa6TfTATu"></div>
+       <input type="submit" name="submit" value="Go Time"><br><br>
+       
+     </form> -->
+  
+</center>
+</body>
+</html>
