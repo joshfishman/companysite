@@ -62,10 +62,15 @@ section.main_copy {
   border: 1px solid; }
   section.main_copy p {
     line-height: 2; }
+  @media screen and (max-width: 570px) {
+    section.main_copy {
+      padding: 15px; }
+      section.main_copy p {
+        font-size: 14px; } }
 
 main {
   margin-top: 0px;
-  padding: 20px;
+  padding: 15px 20px;
   margin-bottom: 60px; }
 
 .logo {
