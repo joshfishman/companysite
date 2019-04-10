@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Mono');
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Roboto Mono', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				300,
+		weight-bold:		600,
+		letter-spacing:		0.05em,
+		letter-spacing-alt:	0.25em
+	);
+
+// Palette.
+	$palette: (
+		bg:					#ffffff,
+		bg-alt:				rgba(255,255,255,0.9),
+		fg:					#000000,
+		fg-bold:			#000000,
+		fg-light:			rgba(0,0,0,0.6),
+		border:				rgba(212,212,255,0.1),
+		border-bg:			rgba(212,212,255,0.5),
+		highlight:			rgba(212,212,255,0.1),
+		accent1:			#FFFFFF,
+		accent2:			#BCE6F2,
+		accent3:			#F9B46E,
+		accent4:			#e7b788,
+		accent5:			#8ea9e8,
+		accent6:			#87c5a4
+	);

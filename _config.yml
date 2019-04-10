@@ -1,0 +1,36 @@
+# site settings
+title: WE
+subtitle: Creative Agency
+email: hi@wecreativeagency.com
+description: Digital Marketing<br />for Lifestyle and Wellness Companies
+baseurl:  # the subpath of your site, e.g. /blog
+url: https://wecreativeagency.com # the base hostname & protocol for your site
+author: WE Creative Agency
+street_address: 268 S. Orange Dr
+city: Los Angeles
+state: CA
+zip_code: 90036
+country: United States of America
+phone: (323) 412-0544
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 3
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url:
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
