@@ -251,6 +251,8 @@ DEPENDENCIES
   forty_jekyll_theme!
   github-pages
   jekyll (~> 3.3)
+  jekyll-redirect-from
+  jekyll-sitemap
 
 BUNDLED WITH
    1.16.2

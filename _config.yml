@@ -12,6 +12,9 @@ state: CA
 zip_code: 90036
 country: United States of America
 phone: (323) 412-0544
+plugins:
+    - jekyll-sitemap
+    - jekyll-redirect-from
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

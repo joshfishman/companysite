@@ -5,6 +5,7 @@ description: "Take a look at what we've built."
 year: 1999
 image: assets/images/pic07.jpg
 nav-menu: true
+redirect_from: /projects
 ---
 
 <!-- Main -->
