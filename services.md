@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Services
-description: 'What WE can do for you?'
+description: 'What WE can do for you.'
 year: 1999
 image: assets/images/workbg2.jpg
 nav-menu: true

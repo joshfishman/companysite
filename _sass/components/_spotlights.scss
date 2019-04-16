@@ -118,3 +118,23 @@
 			}
 		}
 	}
+
+  .row.tiles {
+    @include vendor('display', 'flex');
+    @include vendor('flex-direction', 'row');
+    & > div {
+      // border: 1px solid #ccc;
+      flex:1;
+      text-align: center;
+      @include vendor('display', 'flex');
+      @include vendor('justify-content', 'space-around');
+      @include vendor('align-items', 'center');
+      svg,img {
+        width: 80%;
+        @include vendor('align-self', 'center');
+      }
+      h3 {
+        @include vendor('align-self', 'flex-end');
+      }
+    }
+  }
