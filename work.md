@@ -1,6 +1,6 @@
 ---
-title: Our Work
 layout: landing
+title: Our Work
 description: "Take a look at what we've built."
 year: 1999
 image: assets/images/pic07.jpg
@@ -13,15 +13,15 @@ redirect_from: /projects
 
 <!-- One -->
 <!-- <section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>11 Honore</h2>
-		</header>
-		<p>11 Honore CEO Patrick Herning, came to WE Creative with a vision for creating an e-commerce startup in an underserved market.</p>
+  <div class="inner">
+    <header class="major">
+      <h2>11 Honore</h2>
+    </header>
+    <p>11 Honore CEO Patrick Herning, came to WE Creative with a vision for creating an e-commerce startup in an underserved market.</p>
     <p>WE selected Shopify for their platform because of its extensibility and ease of use. Developing a custom theme and integrating the site with fulfillment, warehousing and marketing vendors. These integrations streamlined time spent managing the site so that the 11 Hon0re team could focus on serving their customers.</p>
     <p>Once the site was launched WE managed, Email, Paid Search & Social Marketing, helping grow the site 20% Month over Month. 
 </p>
-	</div>
+  </div>
 </section> -->
 
 <!-- Two -->
@@ -45,57 +45,57 @@ redirect_from: /projects
       </div>
     </div>
   </section>
-	<section>
-		<a href="https://11honore.com" class="image" target="_blank">
-			<img src="assets/images/11honore.png" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>11 Honoré</h3>
-				</header>
-				  <p>11 Honoré CEO Patrick Herning, came to WE Creative with a vision for creating an e-commerce startup in an underserved market.</p>
+  <section>
+    <a href="https://11honore.com" class="image" target="_blank">
+      <img src="assets/images/11honore.png" alt="" data-position="center center" />
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major">
+          <h3>11 Honoré</h3>
+        </header>
+          <p>11 Honoré CEO Patrick Herning, came to WE Creative with a vision for creating an e-commerce startup in an underserved market.</p>
             <p>WE helped take that vision into reality. WE selected Shopify for their platform because of its extensibility and ease of use. WE developed a custom theme and integrated site operations with business functions and logistics vendors.</p>
             <p>Once the site was launched WE managed, Email, Paid Search & Social Marketing, helping grow the site 20% Month over Month. 
         </p>
-				<ul class="actions">
-					<li><a href="https://11honore.com" class="button next" target="blank">View the Site</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="https://interactboulder.com" rel="noreferrer" target="_blank" class="image">
-			<img src="assets/images/interact.jpg" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Interact Boulder</h3>
-				</header>
-				<p>Interact Boulder is a branding agency that works primarily in the Food & Beverage industry. They needed a website that showcased their status as an industry leader. </p>
+        <ul class="actions">
+          <li><a href="https://11honore.com" class="button next" target="blank">View the Site</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section>
+    <a href="https://interactboulder.com" rel="noreferrer" target="_blank" class="image">
+      <img src="assets/images/interact.jpg" alt="" data-position="top center" />
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major">
+          <h3>Interact Boulder</h3>
+        </header>
+        <p>Interact Boulder is a branding agency that works primarily in the Food & Beverage industry. They needed a website that showcased their status as an industry leader. </p>
         <p>WE worked with their design team to develop a custom Wordpress theme that features a fully modern frontend and ensured proper migration of their existing site in order to maintain search rankings for their most important content.
         </p>
-				<ul class="actions">
-					<li><a href="https://interactboulder.com" target="_blank" rel="noreferrer" class="button next">View the Site</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="https://hudsonjeans.com" target="_blank" rel="noreferrer" class="image">
-			<img src="assets/images/hudson.png" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>HUDSON Jeans</h3>
-				</header>
-				<p>HUDSON tapped WE Creative to handle strategy and management for their paid social channels.</p>
+        <ul class="actions">
+          <li><a href="https://interactboulder.com" target="_blank" rel="noreferrer" class="button next">View the Site</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section>
+    <a href="https://hudsonjeans.com" target="_blank" rel="noreferrer" class="image">
+      <img src="assets/images/hudson.png" alt="" data-position="25% 25%" />
+    </a>
+    <div class="content">
+      <div class="inner">
+        <header class="major">
+          <h3>HUDSON Jeans</h3>
+        </header>
+        <p>HUDSON tapped WE Creative to handle strategy and management for their paid social channels.</p>
         <p>WE helped them optimize their spend and pilot new formats for promotion, resulting in growth of the channel and 6x return on investment.</p>
-			</div>
-		</div>
-	</section>
+      </div>
+    </div>
+  </section>
 </section>
 
 <!-- Three -->
